@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    display: flex;
+    font-family: "TIMES OF ROMAN";
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    /* background: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=600); */
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    overflow: hidden;
+    
+}
+
+.main-con{
+    border-radius: 20px;
+    border: 3px black solid;
+    padding: 20px;
+    /* background-color: rgb(57, 55, 55);
+     */
+     background: rgb(2,0,36);
+background: linear-gradient(135deg, rgba(2,0,36,1) 1%, rgba(9,9,121,1) 14%, rgba(0,5,255,1) 29%, rgba(0,181,255,1) 53%, rgba(0,172,249,1) 81%, rgba(0,255,243,1) 94%);
+    border-image: linear-gradient(red, blue,yellow,green,orange,yellowgreen) 10;
+    border-width: 4px;
+    border-style: solid;
+    /* -webkit-border-image: stretch; */
+
+    
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-size: 3rem;
+    color: white;
+
+    text-align: center;
+}
+.CLOCK{
+    display: flex;
+}
+.CLOCK DIV{
+    margin: 5PX;
+    position: relative;
+}
+
+.CLOCK SPAN{
+    width: 100PX;
+    height: 80PX;
+    padding: 0px;
+    background-color: rgb(62, 255, 249);
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #ffffff9e 0%, #00fd19 100%);
+    
+    border-radius: 30px 0px 30px 0px;
+    /* opacity: 0.8; */
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50PX;
+    margin-bottom: 10px;
+    /* text-shadow: 2PX 2PX 7PX black; */
+    box-shadow: 3px 3px 3px black;
+    
+}
+.CLOCK .TEXT{
+    height: 30px;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #ffffff 0%, #eaff00 100%);
+
+    opacity: 1;
+    color: rgb(0, 0, 0);
+}
+
+#AMPM{
+    position: absolute;
+    top: 25%;
+    align-items: center;
+    border-radius: 15PX 20PX 15PX 0PX;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+
+    color: rgb(0, 0, 0);
+    font-size: 900;
+}
+.DAY{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15PX;
+    border-radius:50PX 20px;
+    /* padding: 30px; */
+    /* background-color: RED; */
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+#DAYCON{
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00ffff 0%, #00ffff 100%);
+    padding: 10PX;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    border-radius: 100PX;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 30px 0px 30px 0px;
+
+}
+#DATECON{
+    margin-top:10px ;
+    background-color: rgb(176, 5, 156);
+    padding: 10PX;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    border-radius: 30px 0px 30px 0px;
+background-image: linear-gradient(0deg, #f47da5 0%, #2f20fe 100%);
+ }
